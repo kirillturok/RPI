@@ -1,0 +1,660 @@
+@import './fonts/fonts.css';
+
+body{
+font-family: "Gotham Rounded";
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.header{
+    position: absolute;
+    width: 100%;
+}
+.header_wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+}
+.navigation{
+    
+    max-width: 765px;
+    width: 100%;
+}
+.navigation_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_item{
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.nav_item:hover{
+    cursor: pointer;
+    color: teal;
+}
+
+
+
+.section1{
+    background-image: url(img/fon.png);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.section1_wrapper{
+    padding: 0 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.section1_content{
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.section1_title{
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 15px;
+    font-weight: bold;
+}
+
+.section1_title2{
+    
+    font-size: 36px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+
+.section1_text{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+.section1_btn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 166px;
+    height: 49px;
+    background-color: #16a085;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.section1_btn:active {
+    top: 1px;
+    background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+    box-shadow:
+     0 0 1px rgba(0,0,0,.5) inset,
+     0 2px 3px rgba(0,0,0,.5) inset,
+     0 1px 1px rgba(255,255,255,.1);
+  }
+.section1_btn:hover{
+    background: rgb(7, 137, 170);
+}
+
+
+.section1_social-nets{
+    cursor: pointer;
+    margin: 0 5px;
+    position:absolute;
+    bottom: 25px;
+    
+}
+
+.icon{
+    margin: 0 5px;
+}
+.icon:hover{
+    transform: translateY(-10px);
+}
+
+
+.section2{
+    min-width: 100%;
+    background-image: url(img/greyfon.png);
+    background-repeat: no-repeat;
+    background-size: 100% 494px;
+    height: 494px;
+}
+.container2{
+    max-width: 1280px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.section2_wrapperall{
+    padding: 0 128px;
+    display: flex;
+    height: 494px;
+}
+.section2_wrapper{
+    font-weight: bold;
+}
+.section2_title{
+    max-width: 390px;
+    text-transform: uppercase;
+    padding-top: 109px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #16a085;
+    line-height: 22px;
+}
+.section2_subtitle{
+    padding-top: 37px;
+    font-weight: normal;
+    width: 505px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #373737;
+}
+.section2_btn{
+    letter-spacing: 2px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 192px;
+    height: 51px;
+    background-color: #16a085;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section2_btn:active {
+    top: 1px;
+    background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+    box-shadow:
+     0 0 1px rgba(0,0,0,.5) inset,
+     0 2px 3px rgba(0,0,0,.5) inset,
+     0 1px 1px rgba(255,255,255,.1);
+  }
+.section2_btn:hover{
+    background: rgb(7, 137, 170);
+}
+.iphone{
+    position:absolute;
+    margin-top: 90px;
+    right: 128px;
+}
+
+.section3{
+    background-image: url(img/whitefon.png);
+    background-repeat: no-repeat;
+    background-size: 100% 558px;
+    height: 558px;
+    display: flex;
+    overflow: hidden;
+}
+.container3{
+
+    min-width: 1280px;
+    margin: 0 auto;
+
+}
+.section3_wrapperall{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 128px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 558px;
+}
+.flatiphone{
+    margin-top: 145px;
+}
+
+
+.section3_right{
+    font-weight: bold;
+    position:absolute;
+    right:70px;
+}
+.section3_right-title{
+    padding-top: 139px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 22px;
+    color: #16a085;
+    text-transform: uppercase;
+}
+.section3_right-subtitle{
+    padding-top: 35px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #373737;
+    font-weight: normal;
+}
+.section3_btn{
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 192px;
+    height: 51px;
+    background-color: #16a085;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+.section3_btn:hover{
+    background: rgb(7, 137, 170);
+}
+.section3_btn:active{
+    top: 1px;
+    background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+    box-shadow:
+     0 0 1px rgba(0,0,0,.5) inset,
+     0 2px 3px rgba(0,0,0,.5) inset,
+     0 1px 1px rgba(255,255,255,.1);
+}
+.section3_pages{
+    margin-top: 40px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #373737;
+    display: flex;
+    font-weight: bold;
+}
+.arrows{
+    cursor: pointer;
+}
+.arrow{
+    margin-right: 15px;
+}
+.arrow:hover{
+    background: grey;
+ }
+
+
+ .section4{
+    display: flex;
+    background-image: url(img/greyfon.png);
+    background-repeat: no-repeat;
+    background-size: 100% 483px;
+    height: 483px;
+}
+.section4_container{
+    max-width: 1280px;
+    min-width: 1280px;
+    margin: 0 auto;
+}
+.section4_wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 128px;
+    height: 483px;
+    
+
+}
+.section4_arrows{
+    cursor: pointer;
+    margin-top: 93px;
+     display: flex;
+    justify-content: flex-end;
+}
+
+
+.section4_left{
+    display: flex;
+}
+
+
+
+  .section6_applestore_btn:hover,.section6_playstore_btn:hover,.section-mainsecond_wrapper2part_btn:hover, .section-mainsecond_btn:hover {
+    background: rgb(7, 137, 170);
+  }
+.section6_applestore_btn:active,.section6_playstore_btn:active,.section-mainsecond_wrapper2part_btn:active,.section-mainsecond_btn:active {
+    top: 1px;
+    background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+    box-shadow:
+     0 0 1px rgba(0,0,0,.5) inset,
+     0 2px 3px rgba(0,0,0,.5) inset,
+     0 1px 1px rgba(255,255,255,.1);
+  }
+
+
+
+
+
+
+
+.textboldfirst{
+    font-weight: bold;
+}
+.textboldsecond{
+    font-weight: bold;
+}
+
+
+
+.section-mainsecond_wrapper{
+    padding-right: 160px;
+}
+
+
+
+
+
+
+
+
+
+.section4_left-text{
+    width: 25%;
+}
+
+.greencamera{
+    padding-left: 58px;
+    padding-top: 54px;
+}
+.section4_left-text_title{
+    padding-top: 26px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #373737;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 4px;
+}
+.section4_left-text_subtitle{
+
+    width: 177px;
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: #373737;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 12px;
+    
+}
+.section4_photo_leftcolumn{
+    margin: 0 24px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.section4_photo_rightcolumn{
+    display: flex;
+    flex-direction: column;
+}
+.section4_photo{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    flex-direction: row;
+    right: 0px;
+    padding-top: 10px;
+}
+
+
+.leafs{
+   height: 244px;
+}
+
+.section5{
+    display: flex;
+    position: relative;
+    background-image: url(img/telephonfon.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 785px;
+    align-items: center;
+}
+.section5_container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+.section5_input{
+    width: 280px;
+    height: 60px;
+    padding-left: 20px;
+}
+.section5_text{
+    font-size: 24px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section5_inputandmark{
+    margin-top: 35px;
+}
+.section5_btn{
+    cursor: pointer;
+}
+.form{
+    display: flex;
+}
+input::-webkit-input-placeholder { color: black;
+    font-weight: 500;
+ }
+.section5_input{
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: 0px;
+    text-transform: uppercase;
+}
+.section5_btn{
+    border: 0px;
+    background: url(img/check.png) no-repeat center;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63px;
+    height: 62px;
+    background-color: #16a085;   
+}
+.section6{
+    display: flex;
+    position: relative;
+    background-image: url(img/greyfon.png);
+    background-repeat: no-repeat;
+    
+    height: 396 px;
+}
+.section6_container{
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    text-transform: uppercase;
+    height: 396px;
+}
+.section6_btns{
+    width: 610px;
+    justify-content: space-between;
+}
+.section6_text{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #373737;
+   font-weight: bold;
+   margin-top: 92px;
+}
+.section6_subtitle{
+    text-align: center;
+    width: 877px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #373737;
+    margin-top: 7px;
+    font-weight: bold;  
+    
+}
+.section6_applestore_btn{
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #1abc9c;
+    text-decoration: none;
+    width: 240px;
+    height: 56px;
+    color: white;
+    padding-left: 22px;
+
+}
+.section6_playstore_btn{
+    font-size: 18px;
+    letter-spacing: 3px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #1abc9c;
+    text-decoration: none;
+    width: 240px;
+    height: 56px;
+    color: white;
+    padding-left: 32px;
+}
+.section6_btns{
+
+    margin-top: 40px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+.section6applestoreicon_btn{
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #16a085; 
+}
+.section6playstoreicon_btn{
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #16a085;
+}
+.containerfooter{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    min-height: 131px;
+    position: relative;
+}
+
+
+.navigationfooter_itemsslash1,.navigationfooter_itemsslash2{
+   color: #16a085;
+}
+
+.footerwrapper{
+   padding-left:128px;;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #373737;
+    font-weight: bold;
+    padding-top: 9px;
+}
+.copyright_text{
+    padding-top: 22px;
+}
+.navigationfooter_list{
+    display: flex;
+}
+.footercamera{
+    position:absolute;
+    right: 125px;
+}
+.navigationfooter_itemword1{
+    cursor:pointer;
+}
+.navigationfooter_itemword2{
+    cursor:pointer;
+}
+.navigationfooter_itemword3{
+    cursor:pointer;
+}
+.navigationfooter_itemsslash1{
+    margin:0 7px;
+}
+.navigationfooter_itemsslash2{
+    margin:0 7px;
+}
+.section6applestoreicon_btn:active,.section6playstoreicon_btn:active {
+    background: grey;
+}
+.section6applestoreicon_btn:hover,.section6playstoreicon_btn:hover {
+    box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px black;
+    color: black;
+}
+.navigation_item:active{
+    color: rgb(7, 137, 170);
+}
+.navigation_item:hover{
+text-decoration: underline;
+}
+.navigationfooter_itemword1:hover, .navigationfooter_itemword2:hover,  .navigationfooter_itemword3:hover{
+    color: #2EE59D;
+    transform: translateY(-7px);
+  }
+
+ 
+ .section4_leftarrow:hover,.section_ourcomminuty_rightarrow:hover{
+    background: grey;
+ }
+ .section5_btn:hover{
+    box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px black;
+    color: black;
+ }
+
+
